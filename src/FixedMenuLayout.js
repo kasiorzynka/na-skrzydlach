@@ -14,7 +14,7 @@ import About from "./component/About";
 import Psychotherapy from "./component/Psychotherapy";
 import Prices from "./component/Prices";
 import Contact from "./component/Contact";
-import photo from "./Agnieszka_Twarowska.jpg";
+//#6bd5b4
 
 const FixedMenuLayout = () => (
   <div>
@@ -39,14 +39,6 @@ const FixedMenuLayout = () => (
           <Menu.Item as="a">Kontakt</Menu.Item>
         </Link>
 
-        <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/about" element={<About />}></Route>
-          <Route path="/psychotherapy" element={<Psychotherapy />}></Route>
-          <Route path="/prices" element={<Prices />}></Route>
-          <Route path="/contact" element={<Contact />}></Route>
-        </Routes>
-
         {/* <Dropdown item simple text="Dropdown">
           <Dropdown.Menu>
             <Dropdown.Item>List Item</Dropdown.Item>
@@ -67,16 +59,13 @@ const FixedMenuLayout = () => (
       </Container>
     </Menu>
 
-    <Container text style={{ marginTop: "7em" }}>
-      <img
-        src={photo}
-        alt="Agnieszka Twarowska"
-        style={{ maxWidth: "200px" }}
-      />
-      <Header as="h1">Agnieszka Twarowska</Header>
-      <Header>Gabinet psychoterapii &quot;Na Skrzydłach&quot;</Header>
-      <p>+48 784 372 702</p>
-    </Container>
+    <Routes>
+      <Route path="/" element={<Home />}></Route>
+      <Route path="/about" element={<About />}></Route>
+      <Route path="/psychotherapy" element={<Psychotherapy />}></Route>
+      <Route path="/prices" element={<Prices />}></Route>
+      <Route path="/contact" element={<Contact />}></Route>
+    </Routes>
 
     <Segment
       inverted

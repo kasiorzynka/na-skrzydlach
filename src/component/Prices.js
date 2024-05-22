@@ -1,9 +1,26 @@
-/*
-Cennik
+import { Container } from "semantic-ui-react";
 
-Konsultacja (50 min)
-200zł
+const Prices = () => {
+  return (
+    <div>
+      <Container text style={{ marginTop: "5em" }}>
+        <h1>Cennik</h1>
+        <div>
+          <p>
+            <strong>Konsultacja</strong> (50 min):
+          </p>
+          200zł
+        </div>
+        <p></p>
+        <div>
+          <p>
+            <strong>Sesja psychoterapii indywidualnej</strong> (50 min):
+          </p>
+          200zł
+        </div>
+      </Container>
+    </div>
+  );
+};
 
-Sesja psychoterapii indywidualnej (50 min)
-200zł
-*/
+export default Prices;
