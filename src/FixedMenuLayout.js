@@ -1,26 +1,53 @@
+import { Link, Routes, Route } from "react-router-dom";
 import {
   Container,
   Divider,
-  Dropdown,
+  // Dropdown,
   Grid,
   Header,
-  Image,
   List,
   Menu,
   Segment,
 } from "semantic-ui-react";
+import Home from "./component/Home";
+import About from "./component/About";
+import Psychotherapy from "./component/Psychotherapy";
+import Prices from "./component/Prices";
+import Contact from "./component/Contact";
+import photo from "./Agnieszka_Twarowska.jpg";
 
 const FixedMenuLayout = () => (
   <div>
     <Menu fixed="top" inverted>
       <Container>
-        <Menu.Item as="a" header>
-          <Image size="mini" src="/logo.png" style={{ marginRight: "1.5em" }} />
-          Project Name
-        </Menu.Item>
-        <Menu.Item as="a">Home</Menu.Item>
+        <Link to="/">
+          <Menu.Item as="a" header>
+            <i className="home icon"></i>
+            Na skrzydłach
+          </Menu.Item>
+        </Link>
+        <Link to="/about">
+          <Menu.Item as="a">O mnie</Menu.Item>
+        </Link>
+        <Link to="/psychotherapy">
+          <Menu.Item as="a">Psychoterapia</Menu.Item>
+        </Link>
+        <Link to="/prices">
+          <Menu.Item as="a">Cennik</Menu.Item>
+        </Link>
+        <Link to="/contact">
+          <Menu.Item as="a">Kontakt</Menu.Item>
+        </Link>
 
-        <Dropdown item simple text="Dropdown">
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/psychotherapy" element={<Psychotherapy />}></Route>
+          <Route path="/prices" element={<Prices />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
+        </Routes>
+
+        {/* <Dropdown item simple text="Dropdown">
           <Dropdown.Menu>
             <Dropdown.Item>List Item</Dropdown.Item>
             <Dropdown.Item>List Item</Dropdown.Item>
@@ -36,17 +63,19 @@ const FixedMenuLayout = () => (
             </Dropdown.Item>
             <Dropdown.Item>List Item</Dropdown.Item>
           </Dropdown.Menu>
-        </Dropdown>
+        </Dropdown> */}
       </Container>
     </Menu>
 
     <Container text style={{ marginTop: "7em" }}>
-      <Header as="h1">Semantic UI React Fixed Template</Header>
-      <p>This is a basic fixed menu template using fixed size containers.</p>
-      <p>
-        A text container is used for the main container, which is useful for
-        single column layouts.
-      </p>
+      <img
+        src={photo}
+        alt="Agnieszka Twarowska"
+        style={{ maxWidth: "200px" }}
+      />
+      <Header as="h1">Agnieszka Twarowska</Header>
+      <Header>Gabinet psychoterapii &quot;Na Skrzydłach&quot;</Header>
+      <p>+48 784 372 702</p>
     </Container>
 
     <Segment
@@ -84,7 +113,7 @@ const FixedMenuLayout = () => (
             </List>
           </Grid.Column>
           <Grid.Column width={7}>
-            <Header inverted as="h4" content="Footer Header" />
+            <Header inverted as="h4" content="Polecane strony:" />
             <p>
               Extra space for a call to action inside the footer that could help
               re-engage users.
@@ -93,19 +122,19 @@ const FixedMenuLayout = () => (
         </Grid>
 
         <Divider inverted section />
-        <Image centered size="mini" src="/logo.png" />
+        {/* <Image centered size="mini" src="/logo.png" /> */}
         <List horizontal inverted divided link size="small">
           <List.Item as="a" href="#">
-            Site Map
+            Kontakt
           </List.Item>
           <List.Item as="a" href="#">
-            Contact Us
+            Mapa strony
           </List.Item>
           <List.Item as="a" href="#">
-            Terms and Conditions
+            Regulamin/Terms and Conditions
           </List.Item>
           <List.Item as="a" href="#">
-            Privacy Policy
+            Polityka prywatności
           </List.Item>
         </List>
       </Container>
