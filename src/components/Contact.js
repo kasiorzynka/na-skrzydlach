@@ -3,7 +3,7 @@ import { Container, Header } from "semantic-ui-react";
 const Contact = () => {
   return (
     <div>
-      <Container text style={{ marginTop: "5em" }}>
+      <Container text className="contact">
         <Header as="h1">Kontakt:</Header>
         <Header>Gabinet Psychoterapii Na Skrzydłach</Header>
         <p>

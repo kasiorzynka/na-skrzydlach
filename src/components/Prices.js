@@ -3,7 +3,7 @@ import { Container } from "semantic-ui-react";
 const Prices = () => {
   return (
     <div>
-      <Container text style={{ marginTop: "5em" }}>
+      <Container text className="prices">
         <h1>Cennik</h1>
         <div>
           <p>

@@ -1,28 +1,21 @@
 import { Link, Routes, Route } from "react-router-dom";
-import {
-  Container,
-  Divider,
-  // Dropdown,
-  Grid,
-  Header,
-  List,
-  Menu,
-  Segment,
-} from "semantic-ui-react";
-import Home from "./component/Home";
-import About from "./component/About";
-import Psychotherapy from "./component/Psychotherapy";
-import Prices from "./component/Prices";
-import Contact from "./component/Contact";
+import { Container, Menu, Segment } from "semantic-ui-react";
+import Home from "./components/Home";
+import About from "./components/About";
+import Psychotherapy from "./components/Psychotherapy";
+import Prices from "./components/Prices";
+import Contact from "./components/Contact";
+import Logo from "./icons/Logo";
+import LogoFull from "./icons/LogoFull";
 //#6bd5b4
 
 const FixedMenuLayout = () => (
-  <div>
+  <div className="content-wrap">
     <Menu fixed="top" inverted>
       <Container>
         <Link to="/">
           <Menu.Item as="a" header>
-            <i className="home icon"></i>
+            <Logo color="#ffffff" />
             Na skrzydłach
           </Menu.Item>
         </Link>
@@ -38,24 +31,6 @@ const FixedMenuLayout = () => (
         <Link to="/contact">
           <Menu.Item as="a">Kontakt</Menu.Item>
         </Link>
-
-        {/* <Dropdown item simple text="Dropdown">
-          <Dropdown.Menu>
-            <Dropdown.Item>List Item</Dropdown.Item>
-            <Dropdown.Item>List Item</Dropdown.Item>
-            <Dropdown.Divider />
-            <Dropdown.Header>Header Item</Dropdown.Header>
-            <Dropdown.Item>
-              <i className="dropdown icon" />
-              <span className="text">Submenu</span>
-              <Dropdown.Menu>
-                <Dropdown.Item>List Item</Dropdown.Item>
-                <Dropdown.Item>List Item</Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown.Item>
-            <Dropdown.Item>List Item</Dropdown.Item>
-          </Dropdown.Menu>
-        </Dropdown> */}
       </Container>
     </Menu>
 
@@ -67,65 +42,12 @@ const FixedMenuLayout = () => (
       <Route path="/contact" element={<Contact />}></Route>
     </Routes>
 
-    <Segment
-      inverted
-      vertical
-      style={{ margin: "5em 0em 0em", padding: "5em 0em" }}
-    >
+    <Segment className="footer" inverted>
+      <LogoFull color="#ffffff" />
       <Container textAlign="center">
-        <Grid divided inverted stackable>
-          <Grid.Column width={3}>
-            <Header inverted as="h4" content="Group 1" />
-            <List link inverted>
-              <List.Item as="a">Link One</List.Item>
-              <List.Item as="a">Link Two</List.Item>
-              <List.Item as="a">Link Three</List.Item>
-              <List.Item as="a">Link Four</List.Item>
-            </List>
-          </Grid.Column>
-          <Grid.Column width={3}>
-            <Header inverted as="h4" content="Group 2" />
-            <List link inverted>
-              <List.Item as="a">Link One</List.Item>
-              <List.Item as="a">Link Two</List.Item>
-              <List.Item as="a">Link Three</List.Item>
-              <List.Item as="a">Link Four</List.Item>
-            </List>
-          </Grid.Column>
-          <Grid.Column width={3}>
-            <Header inverted as="h4" content="Group 3" />
-            <List link inverted>
-              <List.Item as="a">Link One</List.Item>
-              <List.Item as="a">Link Two</List.Item>
-              <List.Item as="a">Link Three</List.Item>
-              <List.Item as="a">Link Four</List.Item>
-            </List>
-          </Grid.Column>
-          <Grid.Column width={7}>
-            <Header inverted as="h4" content="Polecane strony:" />
-            <p>
-              Extra space for a call to action inside the footer that could help
-              re-engage users.
-            </p>
-          </Grid.Column>
-        </Grid>
-
-        <Divider inverted section />
-        {/* <Image centered size="mini" src="/logo.png" /> */}
-        <List horizontal inverted divided link size="small">
-          <List.Item as="a" href="#">
-            Kontakt
-          </List.Item>
-          <List.Item as="a" href="#">
-            Mapa strony
-          </List.Item>
-          <List.Item as="a" href="#">
-            Regulamin/Terms and Conditions
-          </List.Item>
-          <List.Item as="a" href="#">
-            Polityka prywatności
-          </List.Item>
-        </List>
+        Copyright:&nbsp;
+        <a href="https://www.linkedin.com/in/katarzyna-ficz/">Ficz Company</a>
+        <p>All rights reserved.</p>
       </Container>
     </Segment>
   </div>

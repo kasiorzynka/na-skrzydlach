@@ -1,9 +1,10 @@
-import { Container } from "semantic-ui-react";
+import { Container, Header } from "semantic-ui-react";
 
 const Psychotherapy = () => {
   return (
     <div>
       <Container text style={{ marginTop: "5em" }}>
+        <Header as="h1">Psychoterapia</Header>
         <p>
           <strong>Oferuję psychoterapię z zakresu:</strong>
         </p>
