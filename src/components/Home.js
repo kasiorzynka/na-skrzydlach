@@ -34,8 +34,6 @@ const Home = () => {
           English Division. Przyjmuję w ramach prywatnej praktyki. Pracuję pod
           stałą superwizją.
         </p>
-        <i className="phone icon"></i>
-        <a href="tel:+48 784 372 702">+48 784 372 702</a>
       </Container>
     </div>
   );
