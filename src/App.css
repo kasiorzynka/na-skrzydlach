@@ -39,14 +39,15 @@
   margin-top: 5em;
 }
 
-.prices h1 {
-  margin-bottom: 2em;
+.prices{
+  h1{
+    margin-bottom: 2em;
+  }
+  ul{
+    text-align: left;
+  }
 }
-/*
-#content-wrap {
-  padding-bottom: 14rem;
-}
-*/
+
 .app-footer.ui.segment {
   position: absolute;
   bottom: 0;
