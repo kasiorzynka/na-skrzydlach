@@ -34,17 +34,27 @@
 }
 
 .home,
+.about,
+.psychotherapy,
 .prices,
 .contact {
   margin-top: 5em;
+  margin-bottom: 2em;
+}
+
+.home p{
+  text-align: justify;
+}
+
+.about, .psychotherapy, .prices{
+  ul{
+    text-align: justify;
+  }
 }
 
 .prices{
   h1{
     margin-bottom: 2em;
-  }
-  ul{
-    text-align: left;
   }
 }
 
