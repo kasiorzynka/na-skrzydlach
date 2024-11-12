@@ -4,7 +4,7 @@ import { Container } from "semantic-ui-react";
 const About = () => {
   return (
     <div>
-      <Container text style={{ marginTop: "5em" }}>
+      <Container className="about" text>
         <h1>O mnie</h1>
         {/*<Grid divided inverted stackable>
           <Grid.Column width={4}>
@@ -19,44 +19,40 @@ const About = () => {
           </Grid.Column>
         </Grid>
 */}
-        <p></p>
-        <div style={{ textAlign: "justify" }}>
+        
+        <div>
           <p>
             <strong>
-              W zawodzie psychologa pracuję od 2012r. Swoje doświadczenie
-              zdobywałam min.:
+              Swoje doświadczenie zdobywałam min.:
             </strong>
           </p>
           <ul>
-            <li>w Stowarzyszeniu Niebieska Linia</li>
-            <li>
-              w Ogólnopolskiej Poradni dla Osób w Kryzysie Emocjonalnym 116 123
-              działającej przy Instytucie Psychologii Zdrowia
-            </li>
-            <li>w Centrum Poznawczo – Behawioralnym Ad Rem</li>
-            <li>w Pracowni Pomocy Psychologicznej i Psychoterapii Solutio</li>
+            <li>w Mazowieckim Szpitalu Bródnowskim na Oddziale Całodobowym oraz Oddziale Dziennym</li>
+            <li>w Centrum Poznawczo – Behawioralnym &quot;Ad Rem&quot;</li>
+            <li>w Pracowni Pomocy Psychologicznej i Psychoterapii &quot;Solutio&quot;</li>
+            <li>w Ogólnopolskiej Poradni &quot;Kryzysowy Telefon Zaufania 116 123&quot; działającej przy Instytucie Psychologii Zdrowia</li>
+            <li>w Stowarzyszeniu na Rzecz Przeciwdziałania Przemocy w Rodzinie &quot;Niebieska Linia&quot;</li>
           </ul>
         </div>
-        <div style={{ textAlign: "justify" }}>
+        <div>
           <p>
-            <strong>Moje dodatkowe szkolenia to min.: </strong>
+            <strong>Dodatkowo poszerzam swoje kompetencje poprzez uczestnictwo w szkoleniach:</strong>
           </p>
           <ul>
             <li>
-              szereg szkoleń z Terapii Schematu w ośrodkach posiadających
-              certyfikat ISST min. ośrodku Cogito
+            szereg szkoleń z Terapii Schematu w ośrodkach posiadających certyfikat ISST min. ośrodku Cogito
             </li>
             <li>
-              szkolenie pierwszego stopnia z zakresu Terapii Skoncentrowanej na
-              Emocjach (EFT) w ośrodku Intra
+            szkolenie pierwszego i drugiego stopnia z zakresu Terapii Skoncentrowanej na Emocjach (EFT) w ośrodku Intra
             </li>
             <li>
-              roczne szkolenie z zakresu pracy z grupą w szkole STABI przy
-              Instytucie Zarządzania przez Wartości
+            roczne szkolenie z zakresu pracy z grupą w szkole STABI przy Instytucie Zarządzania przez Wartości
             </li>
             <li>
-              szkolenie z Terapii Skoncentrowanej na Rozwiązaniach (TSR) w
-              Stowarzyszeniu Niebieska Linia
+            szkolenie z Terapii Skoncentrowanej na Rozwiązaniach (TSR) w Stowarzyszeniu Niebieska Linia
+            </li>
+            <li>
+            szkolenie z zakresu psychodramy w szkole terapii Dialog
             </li>
           </ul>
         </div>

@@ -5,7 +5,7 @@ const Contact = () => {
     <div>
       <Container text className="contact">
         <Header as="h1">Kontakt:</Header>
-        <Header>Gabinet Psychoterapii &quot;Na Skrzydłach&quot;</Header>
+        <Header>Gabinet Psychoterapii &quot;Na skrzydłach&quot;</Header>
         <p>Uprzejmie proszę o kontakt SMS-owy lub mailowy:</p>
         <p>
           <i className="phone icon"></i>

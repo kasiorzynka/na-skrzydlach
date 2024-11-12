@@ -3,23 +3,26 @@ import { Container, Header } from "semantic-ui-react";
 const Psychotherapy = () => {
   return (
     <div>
-      <Container text style={{ marginTop: "5em" }}>
+      <Container className="psychotherapy" text>
         <Header as="h1">Psychoterapia</Header>
         <p>
           <strong>Oferuję psychoterapię z zakresu:</strong>
         </p>
-        <ul style={{ textAlign: "left" }}>
-          <li>depresji</li>
-          <li>zaburzeń lękowych min. fobii społecznej, lęku uogólnionego</li>
-          <li>problemów związanych z niską samooceną</li>
-          <li>trudności związanych z dysregulacją emocjonalną</li>
-          <li>braku satysfakcjonujących związków, samotnością</li>
-          <li>poczuciem braku sensu życia</li>
+        <ul>
+          <li>depresji i zaburzeń nastroju</li>
+          <li>zaburzeń lękowych (ataki paniki, fobia społeczna, lęk uogólniony)</li>
+          <li>zaburzeń osobowości (w tym osobowości borderline)</li>
+          <li>zaburzeń odżywiania</li>
+          <li>zespołu nadpobudliwości psychoruchowej (ADHD)</li>
+          <li>zaburzenia obsesyjno-kompulsyjnego (OCD)</li>
           <li>
-            PTSD oraz trudnościami związanymi z traumatycznymi przeżyciami
+          zespołu stresu pourazowego (PTSD) oraz innych objawów przebytej traumy
           </li>
-          <li>zaburzeń obsesyjno – kompulsyjnych</li>
-          <li>ADHD</li>
+          <li>braku satysfakcjonujących związków, samotnością, trudnościami w budowaniu relacji interpersonalnych</li>
+          <li>problemów związanych z niską samooceną</li>
+          <li>wypalenia zawodowego</li>
+          <li>wsparcia w wystąpieniu kryzysów życiowych, rodzinnych, zawodowych</li>
+          <li>lepszego poznania i zrozumienia siebie</li>
         </ul>
       </Container>
     </div>

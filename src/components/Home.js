@@ -12,27 +12,13 @@ const Home = () => {
           style={{ maxWidth: "200px" }}
   />*/}
         <Header as="h1">Agnieszka Twarowska</Header>
-        <Header>Gabinet psychoterapii</Header>
-        <Header>&quot;NA SKRZYDŁACH&quot;</Header>
-        <p style={{ textAlign: "justify" }}>
-          Jestem psychologiem, certyfikowanym terapeutą poznawczo –
-          behawioralnym (nr certyfikatu PTTPB 1454). Swoje szkolenie odbyłam w
-          czteroletniej całościowej Szkole Psychoterapii Poznawczo-Behawioralnej
-          Uniwersytetu SWPS pod kierownictwem dr hab. Agnieszki Popiel i dr Ewy
-          Pragłowskiej. Obecnie podjęłam kolejne pięcioletnie całościowe
-          szkolenie psychoterapeutyczne z&nbsp;zakresu terapii psychodynamiczno
-          – systemowej w Fundacji Rozwoju Terapii Rodzin Na Szlaku
-          przygotowujące do certyfikatu psychoterapeuty Polskiego Towarzystwa
-          Psychiatrycznego.
-        </p>{" "}
-        <p style={{ textAlign: "justify" }}>
-          Obecnie pracuję w Oddziale Dziennym Ogólnopsychiatrycznym
-          Mazowieckiego Szpitala Bródnowskiego. W ramach swoich obowiązków
-          prowadzę psychoterapię grupową oraz zajmuję się procesami
-          diagnostycznymi. Współpracuję również z Warszawskim Uniwersytetem
-          Medycznymo prowadząc zajęcia dydaktyczne dla studentów programu
-          English Division. Przyjmuję w ramach prywatnej praktyki. Pracuję pod
-          stałą superwizją.
+        <Header>Gabinet psychoterapii &quot;Na skrzydłach&quot;</Header>
+        <p>Jestem magistrem psychologii oraz certyfikowanym terapeutą poznawczo – behawioralnym (nr&nbsp;certyfikatu 1454).</p>
+        <p>
+          W zawodzie pracuję od 2012r. Początkowo zajmowałam się interwencją kryzysową i poradnictwem psychologicznym. Obecnie w ramach prywatnej praktyki prowadzę indywidualne procesy psychoterapeutyczne. Pracuję też w Oddziale Dziennym Ogólnopsychiatrycznym Mazowieckiego Szpitala Bródnowskiego, gdzie prowadzę psychoterapię grupową, konsultacje indywidualne oraz spotkania z rodzinami pacjentów. W ramach swoich obowiązków wdrażam i nadzoruję pracę psychologów realizujących szpitalny staż. Współpracuję z Warszawskim Uniwersytetem Medycznym prowadząc zajęcia dla studentów uniwersyteckiej sekcji zagranicznej z tematyki diagnozy psychologicznej.
+        </p>
+        <p>
+          Szkolenie odbyłam w czteroletniej całościowej Szkole Psychoterapii Poznawczo-Behawioralnej Uniwersytetu SWPS pod kierownictwem dr hab. Agnieszki Popiel i dr Ewy Pragłowskiej. W ramach rozwoju zawodowego realizuję kolejne pięcioletnie szkolenie psychoterapeutyczne z zakresu terapii psychodynamicznej i systemowej w Fundacji Rozwoju Terapii Rodzin Na Szlaku pod kierownictwem prof. dr hab. med. Bogdana de Barbaro. Dodatkowo regularnie uczestniczę w szkoleniach poszerzających kompetencje psychoterapeuty, w tym w kursach z zakresu Terapii Schematów oraz Terapii Skoncentrowanej na Emocjach (EFT). Jestem członkiem Polskiego Towarzystwa Terapii Poznawczej i Behawioralnej. Pracuję pod stałą superwizją.
         </p>
       </Container>
     </div>
