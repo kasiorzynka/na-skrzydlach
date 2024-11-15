@@ -31,10 +31,10 @@ html {
   overflow: auto;
 }
 
-.logo {
-  height: 15px;
-  margin-right: 4px;
-  opacity: 0.9;
+.home .photo-full{
+  max-width: 20rem;
+  float:left;
+  margin-right:1rem
 }
 
 .App-link {
