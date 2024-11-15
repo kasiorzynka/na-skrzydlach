@@ -6,8 +6,9 @@ import Psychotherapy from "./components/Psychotherapy";
 import Prices from "./components/Prices";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Logo from "./icons/Logo";
+// import Logo from "./icons/Logo"; <Logo color="#ffffff" />
 // import LogoFull from "./icons/LogoFull";
+import LogoWhite from "./icons/LogoWhite.png";
 
 //#6bd5b4
 
@@ -18,7 +19,7 @@ const FixedMenuLayout = () => (
         <Container>
           <Link to="/">
             <Menu.Item as="a" header>
-              <Logo color="#ffffff" />
+            <img src={LogoWhite} className="logo-menu" alt="Logo Gabinet psychoterapii Na skrzydłach" width="50px" />
               Na skrzydłach
             </Menu.Item>
           </Link>
@@ -36,7 +37,6 @@ const FixedMenuLayout = () => (
           </Link>
         </Container>
       </Menu>
-
     </div>
     <div className="app-content">
       <Routes>
@@ -47,10 +47,7 @@ const FixedMenuLayout = () => (
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
     </div>
-
-
     <Footer />
-    
   </div>
 );
 

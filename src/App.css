@@ -1,3 +1,7 @@
+html {
+  font-size: 14px; /* Start value for rem/em */
+}
+
 .App {
   text-align: center;
   position: relative;
@@ -11,6 +15,10 @@
   width: 100%;
   .menu {
     background: #28598a !important;
+    .logo-menu {
+      width: 2.1em!important;
+      margin-right: 0.2em !important;
+    }
   }
 }
 
@@ -18,7 +26,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  bottom: 140px;
+  bottom: 100px;
   right: 0;
   overflow: auto;
 }
@@ -63,12 +71,11 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 10rem;
   background: #28598a !important;
-  margin: 5em 0em 0em;
-  padding: 1em 0em;
+  padding: 0.5rem;
+  border-radius: 0;
   .logo-full {
-    margin-bottom: 1em;
+    margin-bottom: 0;
   }
   a {
     color: #ffffff;
