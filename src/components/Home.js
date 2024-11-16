@@ -10,7 +10,7 @@ const Home = () => {
         <Header>Gabinet psychoterapii &quot;Na skrzydłach&quot;</Header>
         <img
           src={PhotoFull}
-          alt="Agnieszka Twarowska"
+          alt="Agnieszka Twarowska full photo"
           className="photo-full"
         />
         <p>Jestem magistrem psychologii oraz certyfikowanym terapeutą poznawczo – behawioralnym (nr&nbsp;certyfikatu 1454).</p>

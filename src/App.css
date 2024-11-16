@@ -37,6 +37,18 @@ html {
   margin-right:1rem
 }
 
+.about{
+  .title{
+    text-align: left;
+    margin-left: 1.5rem;
+  }
+ .photo-profile{
+  max-width: 24.5rem;
+  float:right;
+  margin: 0.8rem 1rem 0;
+  }
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -85,5 +97,3 @@ html {
     color: #aedfff;
   }
 } 
-
-
