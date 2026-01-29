@@ -1,5 +1,6 @@
 import { Container, Header } from "semantic-ui-react";
 import PhotoFull from "../photos/Agnieszka-Twarowska-full.jpg";
+import Psychotherapy from "./Psychotherapy";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
         <p>
           Szkolenie odbyłam w czteroletniej całościowej Szkole Psychoterapii Poznawczo-Behawioralnej Uniwersytetu SWPS pod kierownictwem dr hab. Agnieszki Popiel i dr Ewy Pragłowskiej. W ramach rozwoju zawodowego realizuję kolejne pięcioletnie szkolenie psychoterapeutyczne z zakresu terapii psychodynamicznej i systemowej w Fundacji Rozwoju Terapii Rodzin Na Szlaku pod kierownictwem prof. dr hab. med. Bogdana de Barbaro. Dodatkowo regularnie uczestniczę w szkoleniach poszerzających kompetencje psychoterapeuty, w tym w kursach z zakresu Terapii Schematów oraz Terapii Skoncentrowanej na Emocjach (EFT). Jestem członkiem Polskiego Towarzystwa Terapii Poznawczej i Behawioralnej. Pracuję pod stałą superwizją.
         </p>
+        <Psychotherapy />
       </Container>
     </div>
   );
