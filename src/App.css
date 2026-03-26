@@ -55,11 +55,14 @@ html {
 
 .home,
 .about,
-.psychotherapy,
 .prices,
 .contact {
   margin-top: 5em;
   margin-bottom: 2em;
+}
+
+.psychotherapy{
+  margin-top: 2em;
 }
 
 .home p{
