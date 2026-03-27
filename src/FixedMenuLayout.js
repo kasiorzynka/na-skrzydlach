@@ -26,11 +26,6 @@ function FixedMenuLayout(){
     checkWindowSize()
   },[isDesktop]);
 
-  //When user resize the window
-  // if(typeof window !== "undefined"){
-  //   window.addEventListener("resize", checkWindowSize);
-  // }
-
   return(
     <div className="content-wrap">
       <div className="app-header">
